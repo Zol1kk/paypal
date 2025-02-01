@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пополнение баланса</title>
+    <link rel="stylesheet" href="style.css"> <!-- Подключаем файл CSS -->
+</head>
+<body>
+    <div class="container">
+        <h1>Пополните баланс</h1>
+
+        <!-- Карта для пополнения -->
+        <div class="card-container">
+            <img src="ggg.png" alt="Карта для пополнения">
+        </div>
+
+        <!-- Инструкция -->
+        <div class="instruction">
+            <p><strong>Как пополнить:</strong></p>
+            <p>1. Откройте ваше приложение для перевода денег.</p>
+            <p>2. Отправьте нужную сумму на указанную карту.</p>
+            <p>3. После перевода, ваш баланс будет обновлен.</p>
+        </div>
+
+        <!-- Кнопка для пополнения -->
+        <div class="button-container">
+            <button class="pop-up-button" onclick="showPaymentInstructions()">Понял, перевожу!</button>
+        </div>
+    </div>
+
+    <script>
+        function showPaymentInstructions() {
+            alert("Пожалуйста, переведите нужную сумму на указанную карту. После подтверждения, ваш баланс будет обновлен.");
+        }
+    </script>
+</body>
+</html>
